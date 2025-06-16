@@ -5,9 +5,10 @@ import platform
 import sys
 # this tells python, look here to find modules as well
 sys.path.append('getuser_project')
+
 # can see all of them by doing print(sys.path)
 # refer to another python script created
-from get_userproject import get_user_script
+from getuser_project import get_user_script
 # import a specfic function
 from getuser_project.get_user_script import greet_user_mac
 
@@ -96,6 +97,7 @@ close_app(garageband)
 print('Closed')
 
 
+# add more stuff later
 def main():
     # open a fourth of all the apps, then close them
     downloaded_apps=get_downloaded_apps()
