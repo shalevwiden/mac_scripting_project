@@ -1,4 +1,7 @@
 # hide txt files
 *.txt
+!applist.txt
+__pycache__/
+__init__.py
 # hide .o or .a files
 *.[oa]

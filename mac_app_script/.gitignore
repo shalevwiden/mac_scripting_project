@@ -1,4 +1,0 @@
-# hide txt files
-*.txt
-# hide .o or .a files
-*.[oa]
